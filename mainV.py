@@ -44,7 +44,7 @@ elsa = pg.image.load("letitgo.png")
 #=======================================CE QUI FAIT TOURNER LE JEU===========================================
 def waves(wave_num):
     enemy_num = wave_num ** 2
-    for _ in range(enemy_num):
+    for i in range(enemy_num):
         enemy_type = rd(1,3)
         enemies_list.append(
             {
